@@ -69,7 +69,7 @@ PhishGuard/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/phishguard.git
+git clone https://github.com/MahimnDave95/phishguard.git
 cd phishguard
 ```
 
@@ -218,15 +218,6 @@ PhishGuard should minimize the collection of personal data. URLs may contain tok
 ## Responsible Use
 
 PhishGuard is intended for defensive cybersecurity, education, research, and authorized security testing. Do not use it to collect credentials, impersonate organizations, distribute phishing links, or monitor users without permission. Follow applicable laws, institutional policies, and privacy requirements.
-
-## Contributors
-
-- Project team: Add contributor names here.
-- Institution: Add college or university name here.
-
-## License
-
-Add the project license here, such as MIT, Apache-2.0, or an institution-specific license.
 
 ## Disclaimer
 
