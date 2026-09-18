@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PhishGuard</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-root">
+    <header class="popup-header">
+      <div class="logo-mark">
+        <span class="logo-shield"></span>
+      </div>
+      <div class="header-text">
+        <h1>PhishGuard</h1>
+        <p class="subtitle">Email phishing risk insight</p>
+      </div>
+    </header>
+
+    <main class="popup-main">
+      <div id="status" class="status">Loading latest analysis…</div>
+
+      <section id="result" class="result card hidden">
+        <div class="result-header">
+          <span id="label-badge" class="badge badge-safe">Safe</span>
+          <span id="score" class="score-text">0%</span>
+        </div>
+
+        <div class="result-meta">
+          <p class="meta-item">
+            <span class="meta-label">Sender</span>
+            <span id="sender" class="meta-value">—</span>
+          </p>
+          <p class="meta-item">
+            <span class="meta-label">Subject</span>
+            <span id="subject" class="meta-value">—</span>
+          </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="reasons-block">
+          <p class="reasons-title">Detection signals</p>
+          <ul id="reasons" class="reasons-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="popup-footer">
+      <button id="refreshBtn" class="button-primary">Re-scan current email</button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
